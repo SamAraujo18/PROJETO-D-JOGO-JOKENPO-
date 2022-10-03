@@ -28,7 +28,7 @@ if e1 == '1':
                                      \033[1;97mPEDRA, PAPEL E TESOURA\033[m.
                                      
           \033[1;91mCOM ISSO VOCÊ TERÁ QUE TENTAR UTILIZAR ESSES COMANDOS ATÉ TENTAR GANHAR DA MAQUINA.\033[m""")
-    print('-=-' * 25), sleep(6)
+    print('-=-' * 25), sleep(4)
     print(' ')
     input('\033[4;97mPRESSIONE ENTER PARA CONTINUAR PARA O JOGO:\033[m ').strip()
     print(' ')
@@ -45,9 +45,10 @@ if e1 == '1':
     respostadobot = (random.choice(lista))
     print('-=-' * 15)
     print(' '), sleep(1)
-    print('JO'), sleep(1.1)
-    print('KEN'), sleep(1.2)
+    print('JO'), sleep(0.9)
+    print('KEN'), sleep(0.8)
     print('PO!!!'), sleep(1)
+    print('')
     print('-=-' * 10)
     print(f'Computador jogou {respostadobot}')
     print(f'Jogador jogou {r1}'.replace('0', 'Pedra').replace('1', 'Papel').replace('2', 'Tesoura'))
@@ -111,7 +112,7 @@ if e1 == '2':
                                          \033[1;97mPEDRA, PAPEL E TESOURA\033[m.
 
               \033[1;91mCOM ISSO VOCÊ TERÁ QUE TENTAR UTILIZAR ESSES COMANDOS ATÉ TENTAR GANHAR DA MAQUINA.\033[m""")
-        print('-=-' * 25), sleep(6)
+        print('-=-' * 25), sleep(4)
         print(' ')
         input('\033[4;97mPRESSIONE ENTER PARA CONTINUAR PARA O JOGO:\033[m ').strip()
         print(' ')
@@ -124,9 +125,10 @@ if e1 == '2':
         respostadobot = (random.choice(lista))
         print('-=-' * 15)
         print(' '), sleep(1)
-        print('JO'), sleep(1.1)
-        print('KEN'), sleep(1.2)
+        print('JO'), sleep(0.9)
+        print('KEN'), sleep(0.8)
         print('PO!!!'), sleep(1)
+        print('')
         print('-=-' * 10)
         print(f'Computador jogou {respostadobot}')
         print(f'Jogador jogou {r1}'.replace('0', 'Pedra').replace('1', 'Papel').replace('2', 'Tesoura'))
