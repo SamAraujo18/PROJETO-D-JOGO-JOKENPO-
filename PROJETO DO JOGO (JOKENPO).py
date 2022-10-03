@@ -35,32 +35,44 @@ if e1 == '1':
     print('-=-' * 25)
     print('\033[1;95mJogo iniciado:\033[m ')
     print('')
-    r1 = input('Digite qual comando você deseja executar: ').upper()
+    print("""          \033[1;97m[0] PEDRA\033[m
+          \033[1;97m[1] PAPEL\033[m
+          \033[1;97m[2] TESOURA\033[m""")
     print('')
+    r1 = input('Digite qual é a sua jogada: ').upper()
+    print('')
+    sleep(0.1)
     respostadobot = (random.choice(lista))
     print('-=-' * 15)
-    print(' ')
-    if respostadobot == 'Pedra' and r1 == 'TESOURA':
+    print(' '), sleep(1)
+    print('JO'), sleep(1.1)
+    print('KEN'), sleep(1.2)
+    print('PO!!!'), sleep(1)
+    print('-=-' * 10)
+    print(f'Computador jogou {respostadobot}')
+    print(f'Jogador jogou {r1}'.replace('0', 'Pedra').replace('1', 'Papel').replace('2', 'Tesoura'))
+    print('-=-' * 10)
+    if respostadobot == 'Pedra' and r1 == '2':
         print(f'HAHAHA! EU COLOQUEI "\033[1;93m{respostadobot}\033[m" PORTANTO EU VENCI :) ')
-    if respostadobot == 'Tesoura' and r1 == 'PAPEL':
+    if respostadobot == 'Tesoura' and r1 == '1':
         print(f'HAHAHA! EU COLOQUEI "\033[1;93m{respostadobot}\033[m" PORTANTO EU VENCI :) ')
-    if respostadobot == 'Papel' and r1 == 'PEDRA':
+    if respostadobot == 'Papel' and r1 == '0':
         print(f'HAHAHA! EU COLOQUEI "\033[1;93m{respostadobot}\033[m" PORTANTO EU VENCI :) ')
-    if respostadobot == 'Pedra' and r1 == 'PEDRA':
-        print('\033[1;91mEMPATAMOS!\033[m DROGA, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
-    if respostadobot == 'Papel' and r1 == 'PAPEL':
-        print('\033[1;91mEMPATAMOS!\033[m DROGA, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
-    if respostadobot == 'Tesoura' and r1 == 'TESOURA':
-        print('\033[1;91mEMPATAMOS!\033[m DROGA, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
-    if respostadobot == 'Tesoura' and r1 == 'PEDRA':
+    if respostadobot == 'Pedra' and r1 == '0':
+        print('\033[1;91mEMPATAMOS!\033[m PORÉM, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
+    if respostadobot == 'Papel' and r1 == '1':
+        print('\033[1;91mEMPATAMOS!\033[m PORÉM, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
+    if respostadobot == 'Tesoura' and r1 == '2':
+        print('\033[1;91mEMPATAMOS!\033[m PORÉM, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
+    if respostadobot == 'Tesoura' and r1 == '0':
         print('PARABÉNS!! VOCÊ GANHOU DE MIM NO JOKENPÔ!')
         print('')
         print('\033[1;97mFIM DO JOGO!\033[m \033[0;91m(O JOGO AINDA ESTÁ EM DESENVOLVIMENTO, AGUARDE ATUALIZAÇÕES)\033[m')
-    if respostadobot == 'Papel' and r1 == 'TESOURA':
+    if respostadobot == 'Papel' and r1 == '2':
         print('PARABÉNS!! VOCÊ GANHOU DE MIM NO JOKENPÔ!')
         print('')
         print('\033[1;97mFIM DO JOGO!\033[m \033[0;91m(O JOGO AINDA ESTÁ EM DESENVOLVIMENTO, AGUARDE ATUALIZAÇÕES)\033[m')
-    if respostadobot == 'Pedra' and r1 == 'PAPEL':
+    if respostadobot == 'Pedra' and r1 == '1':
         print('PARABÉNS!! VOCÊ GANHOU DE MIM NO JOKENPÔ!')
         print('')
         print('\033[1;97mFIM DO JOGO!\033[m \033[0;91m(O JOGO AINDA ESTÁ EM DESENVOLVIMENTO, AGUARDE ATUALIZAÇÕES)\033[m')
@@ -106,32 +118,43 @@ if e1 == '2':
         print('-=-' * 25)
         print('\033[1;95mJogo iniciado:\033[m ')
         print('')
-        r1 = input('Digite qual comando você deseja executar: ').upper()
-        respostadobot = print(random.choice(lista))
+        r1 = input('Digite qual é a sua jogada: ').upper()
         print('')
+        sleep(0.1)
+        respostadobot = (random.choice(lista))
         print('-=-' * 15)
-        print(' ')
-        if respostadobot == 'Pedra' and r1 == 'TESOURA':
-            print('HAHAHA! EU COLOQUEI \033[1;93m"PEDRA"\033[m PORTANTO EU VENCI :) ')
-        if respostadobot == 'Tesoura' and r1 == 'PAPEL':
-            print('HAHAHA! EU COLOQUEI \033[1;93m"TESOURA"\033[m PORTANTO EU VENCI :)')
-        if respostadobot == 'Papel' and r1 == 'Pedra':
-            print('HAHAHA! EU COLOQUEI \033[1;93m"PAPEL"\033[m PORTANTO EU VENCI :)')
-        if respostadobot == 'Pedra' and r1 == 'PEDRA':
-            print('\033[1;91mEMPATAMOS!\033[m DROGA, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
-        if respostadobot == 'Papel' and r1 == 'PAPEL':
-            print('\033[1;91mEMPATAMOS!\033[m DROGA, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
-        if respostadobot == 'Tesoura' and r1 == 'TESOURA':
-            print('\033[1;91mEMPATAMOS!\033[m DROGA, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
-        if respostadobot == 'Tesoura' and r1 == 'Pedra':
+        print(' '), sleep(1)
+        print('JO'), sleep(1.1)
+        print('KEN'), sleep(1.2)
+        print('PO!!!'), sleep(1)
+        print('-=-' * 10)
+        print(f'Computador jogou {respostadobot}')
+        print(f'Jogador jogou {r1}'.replace('0', 'Pedra').replace('1', 'Papel').replace('2', 'Tesoura'))
+        print('-=-' * 10)
+        if respostadobot == 'Pedra' and r1 == '2':
+            print(f'HAHAHA! EU COLOQUEI "\033[1;93m{respostadobot}\033[m" PORTANTO EU VENCI :) ')
+        if respostadobot == 'Tesoura' and r1 == '1':
+            print(f'HAHAHA! EU COLOQUEI "\033[1;93m{respostadobot}\033[m" PORTANTO EU VENCI :) ')
+        if respostadobot == 'Papel' and r1 == '0':
+            print(f'HAHAHA! EU COLOQUEI "\033[1;93m{respostadobot}\033[m" PORTANTO EU VENCI :) ')
+        if respostadobot == 'Pedra' and r1 == '0':
+            print('\033[1;91mEMPATAMOS!\033[m PORÉM, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
+        if respostadobot == 'Papel' and r1 == '1':
+            print('\033[1;91mEMPATAMOS!\033[m PORÉM, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
+        if respostadobot == 'Tesoura' and r1 == '2':
+            print('\033[1;91mEMPATAMOS!\033[m PORÉM, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
+        if respostadobot == 'Tesoura' and r1 == '0':
             print('PARABÉNS!! VOCÊ GANHOU DE MIM NO JOKENPÔ!')
             print('')
-            print('\033[1;97mFIM DO JOGO!\033[m \033[0;91m(O JOGO AINDA ESTÁ EM DESENVOLVIMENTO, AGUARDE ATUALIZAÇÕES)\033[m')
-        if respostadobot == 'Papel' and r1 == 'TESOURA':
+            print(
+                '\033[1;97mFIM DO JOGO!\033[m \033[0;91m(O JOGO AINDA ESTÁ EM DESENVOLVIMENTO, AGUARDE ATUALIZAÇÕES)\033[m')
+        if respostadobot == 'Papel' and r1 == '2':
             print('PARABÉNS!! VOCÊ GANHOU DE MIM NO JOKENPÔ!')
             print('')
-            print('\033[1;97mFIM DO JOGO!\033[m \033[0;91m(O JOGO AINDA ESTÁ EM DESENVOLVIMENTO, AGUARDE ATUALIZAÇÕES)\033[m')
-        if respostadobot == 'Pedra' and r1 == 'PAPEL':
+            print(
+                '\033[1;97mFIM DO JOGO!\033[m \033[0;91m(O JOGO AINDA ESTÁ EM DESENVOLVIMENTO, AGUARDE ATUALIZAÇÕES)\033[m')
+        if respostadobot == 'Pedra' and r1 == '1':
             print('PARABÉNS!! VOCÊ GANHOU DE MIM NO JOKENPÔ!')
             print('')
-            print('\033[1;97mFIM DO JOGO!\033[m \033[0;91m(O JOGO AINDA ESTÁ EM DESENVOLVIMENTO, AGUARDE ATUALIZAÇÕES)\033[m')
+            print(
+                '\033[1;97mFIM DO JOGO!\033[m \033[0;91m(O JOGO AINDA ESTÁ EM DESENVOLVIMENTO, AGUARDE ATUALIZAÇÕES)\033[m')
