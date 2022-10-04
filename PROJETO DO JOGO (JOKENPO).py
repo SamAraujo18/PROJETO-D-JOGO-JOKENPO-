@@ -32,6 +32,7 @@ if e1 == '1':
     print(' ')
     input('\033[4;97mPRESSIONE ENTER PARA CONTINUAR PARA O JOGO:\033[m ').strip()
     print(' ')
+# MENU DO JOGO (INICIADO)
     print('-=-' * 25)
     print('\033[1;95mJogo iniciado:\033[m ')
     print('')
@@ -120,6 +121,10 @@ if e1 == '2':
         print(' ')
         print('-=-' * 25)
         print('\033[1;95mJogo iniciado:\033[m ')
+        print('')
+        print("""                \033[1;97m[0]PEDRA\033[m
+                \033[1;97m[1] PAPEL\033[m
+                \033[1;97m[2] TESOURA\033[m""")
         print('')
         r1 = input('Digite qual é a sua jogada: ').upper()
         print('')
