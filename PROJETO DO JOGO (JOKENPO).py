@@ -55,28 +55,30 @@ if e1 == '1':
     print('-=-' * 10)
     if respostadobot == 'Pedra' and r1 == '2':
         print(f'HAHAHA! EU COLOQUEI "\033[1;93m{respostadobot}\033[m" PORTANTO EU VENCI :) ')
-    if respostadobot == 'Tesoura' and r1 == '1':
+    elif respostadobot == 'Tesoura' and r1 == '1':
         print(f'HAHAHA! EU COLOQUEI "\033[1;93m{respostadobot}\033[m" PORTANTO EU VENCI :) ')
-    if respostadobot == 'Papel' and r1 == '0':
+    elif respostadobot == 'Papel' and r1 == '0':
         print(f'HAHAHA! EU COLOQUEI "\033[1;93m{respostadobot}\033[m" PORTANTO EU VENCI :) ')
-    if respostadobot == 'Pedra' and r1 == '0':
+    elif respostadobot == 'Pedra' and r1 == '0':
         print('\033[1;91mEMPATAMOS!\033[m PORÉM, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
-    if respostadobot == 'Papel' and r1 == '1':
+    elif respostadobot == 'Papel' and r1 == '1':
         print('\033[1;91mEMPATAMOS!\033[m PORÉM, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
-    if respostadobot == 'Tesoura' and r1 == '2':
+    elif respostadobot == 'Tesoura' and r1 == '2':
         print('\033[1;91mEMPATAMOS!\033[m PORÉM, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
-    if respostadobot == 'Tesoura' and r1 == '0':
+    elif respostadobot == 'Tesoura' and r1 == '0':
         print('PARABÉNS!! VOCÊ GANHOU DE MIM NO JOKENPÔ!')
         print('')
         print('\033[1;97mFIM DO JOGO!\033[m \033[0;91m(O JOGO AINDA ESTÁ EM DESENVOLVIMENTO, AGUARDE ATUALIZAÇÕES)\033[m')
-    if respostadobot == 'Papel' and r1 == '2':
+    elif respostadobot == 'Papel' and r1 == '2':
         print('PARABÉNS!! VOCÊ GANHOU DE MIM NO JOKENPÔ!')
         print('')
         print('\033[1;97mFIM DO JOGO!\033[m \033[0;91m(O JOGO AINDA ESTÁ EM DESENVOLVIMENTO, AGUARDE ATUALIZAÇÕES)\033[m')
-    if respostadobot == 'Pedra' and r1 == '1':
+    elif respostadobot == 'Pedra' and r1 == '1':
         print('PARABÉNS!! VOCÊ GANHOU DE MIM NO JOKENPÔ!')
         print('')
         print('\033[1;97mFIM DO JOGO!\033[m \033[0;91m(O JOGO AINDA ESTÁ EM DESENVOLVIMENTO, AGUARDE ATUALIZAÇÕES)\033[m')
+    else:
+        print('JOGADA INVÁLIDA!')
 
 
 #MENU ALTERNATIVO '2'
@@ -135,28 +137,30 @@ if e1 == '2':
         print('-=-' * 10)
         if respostadobot == 'Pedra' and r1 == '2':
             print(f'HAHAHA! EU COLOQUEI "\033[1;93m{respostadobot}\033[m" PORTANTO EU VENCI :) ')
-        if respostadobot == 'Tesoura' and r1 == '1':
+        elif respostadobot == 'Tesoura' and r1 == '1':
             print(f'HAHAHA! EU COLOQUEI "\033[1;93m{respostadobot}\033[m" PORTANTO EU VENCI :) ')
-        if respostadobot == 'Papel' and r1 == '0':
+        elif respostadobot == 'Papel' and r1 == '0':
             print(f'HAHAHA! EU COLOQUEI "\033[1;93m{respostadobot}\033[m" PORTANTO EU VENCI :) ')
-        if respostadobot == 'Pedra' and r1 == '0':
+        elif respostadobot == 'Pedra' and r1 == '0':
             print('\033[1;91mEMPATAMOS!\033[m PORÉM, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
-        if respostadobot == 'Papel' and r1 == '1':
+        elif respostadobot == 'Papel' and r1 == '1':
             print('\033[1;91mEMPATAMOS!\033[m PORÉM, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
-        if respostadobot == 'Tesoura' and r1 == '2':
+        elif respostadobot == 'Tesoura' and r1 == '2':
             print('\033[1;91mEMPATAMOS!\033[m PORÉM, DA PRÓXIMA VEZ IREI GANHAR DE VOCÊ!!')
-        if respostadobot == 'Tesoura' and r1 == '0':
+        elif respostadobot == 'Tesoura' and r1 == '0':
             print('PARABÉNS!! VOCÊ GANHOU DE MIM NO JOKENPÔ!')
             print('')
             print(
                 '\033[1;97mFIM DO JOGO!\033[m \033[0;91m(O JOGO AINDA ESTÁ EM DESENVOLVIMENTO, AGUARDE ATUALIZAÇÕES)\033[m')
-        if respostadobot == 'Papel' and r1 == '2':
+        elif respostadobot == 'Papel' and r1 == '2':
             print('PARABÉNS!! VOCÊ GANHOU DE MIM NO JOKENPÔ!')
             print('')
             print(
                 '\033[1;97mFIM DO JOGO!\033[m \033[0;91m(O JOGO AINDA ESTÁ EM DESENVOLVIMENTO, AGUARDE ATUALIZAÇÕES)\033[m')
-        if respostadobot == 'Pedra' and r1 == '1':
+        elif respostadobot == 'Pedra' and r1 == '1':
             print('PARABÉNS!! VOCÊ GANHOU DE MIM NO JOKENPÔ!')
             print('')
             print(
                 '\033[1;97mFIM DO JOGO!\033[m \033[0;91m(O JOGO AINDA ESTÁ EM DESENVOLVIMENTO, AGUARDE ATUALIZAÇÕES)\033[m')
+        else:
+            print('JOGADA INVÁLIDA!')
