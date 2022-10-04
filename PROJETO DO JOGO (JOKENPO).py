@@ -122,7 +122,7 @@ if e1 == '2':
         print('-=-' * 25)
         print('\033[1;95mJogo iniciado:\033[m ')
         print('')
-        print("""                \033[1;97m[0]PEDRA\033[m
+        print("""                \033[1;97m[0] PEDRA\033[m
                 \033[1;97m[1] PAPEL\033[m
                 \033[1;97m[2] TESOURA\033[m""")
         print('')
